@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="موقع افلام مشاهدة و تحميل الافلام و المسلسلات العربية و الاجنبية، مشاهدة مباشرة و تحميل مباشر بروابط مباشرة، افلام عربية، افلام اجنبية، مسلسلات عربية، ...">
+    <meta name="keywords" content="أفلام, كرتون, مسلسلات">
+    <meta name="author" content="أميره محمد">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>أفلام ومسلسلات</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">  
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class=" bg-black text-white">
+        <div class=" container ">
+            <div class="row">
+                <div class="col-2">
+                        <a href="index.html">
+                                <img src="images/logo.png" class="w-75" alt="">
+                        </a>  
+                </div><!-- logo -->
+                <div class="col-10">
+                    <div class="input-group mt-4">
+                        <span class="input-group-text" >
+                            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                        </span>
+                        <input type="text" class="form-control form-control-lg" placeholder="اكتب اسم الفيلم او المسلسل هنا" >
+                      </div>
+                </div> <!-- search -->
+            </div>
+        </div>
+    </header>
+
+    <section class="movies py-5">
+        <div class=" container ">
+            <div class="row">
+    <script>
+        for(i=1;i<=12;i++){
+            document.write(`
+                <div class="col-md-3 col-sm-6 mb-1">
+                    <div class=" card p-3 text-center">
+                        <img src="images/movie.jpg" alt="">
+                        <h3>أسم الفيلم</h3>
+                        <h3>تاريخ الانتاج</h3>
+                        <h3>تاريخ الانتاج</h3>
+                        <h3>تاريخ الانتاج</h3>
+                        <a href="details.html" class=" btn btn-danger">اقرء اكتر</a>
+                    </div> <!-- card -->
+                </div>
+           ` )
+        }
+    </script>
+                
+            </div><!--row -->
+        </div> <!-- container -->
+    </section>
+    <section class="pagination d-flex justify-content-center">
+            <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                  </nav>
+    </section> <!-- pagination -->
+    <header class=" bg-black text-white py-3 text-center">
+        <h4>
+            شركه افلام ومسلسلات وكرتون
+        </h4>
+    </header>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
